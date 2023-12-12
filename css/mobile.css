@@ -1,0 +1,59 @@
+/* Helper classes */
+.h-2 {
+    width: 38% !important;
+    margin-top: 10px;
+}
+
+/* Navbar start */
+.container .image {
+    text-align: center;
+}
+
+.nav-ul .nav img {
+    /* font-size: 10px; */
+    padding: 0 1rem !important;
+    margin-top: 1.5rem;
+}
+
+.nav-ul ul {
+    text-align: center;
+    padding: 0 !important;
+}
+
+/* Orenge start */
+.main-orange .container h2 {
+    padding: 10px;
+    width: 36%;
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 13px;
+}
+/* Orenge end */
+/* Massege start */
+.main-massege {
+    height: 80vh;
+}
+
+form input {
+    display: inline-block !important;
+    width: 82% !important;
+}
+
+form textarea {
+    display: inline-block !important;
+    width: 82% !important;
+}
+
+form button {
+    font-size: 25px;
+    padding: 0 25px;
+    margin-right: 2rem;
+    margin-top: 15px;
+}
+
+/* Copyright start */
+.main-copy .para p {
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+/* Copyright end */

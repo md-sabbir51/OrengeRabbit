@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@800&family=Edu+TAS+Beginner&family=Libre+Franklin:wght@700&family=Montserrat:wght@400;500;700;800;900&family=Pacifico&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Helper classes */
+.h-2 {
+    color: #6e6d6b !important;
+    background-color: #ffc759 !important;
+    width: 35% !important;
+    margin-top: 20px;
+    margin-left: 0 !important;
+}
+
+.anc {
+    text-decoration: none;
+    color: #ffc759;
+}
+
+ul {
+    list-style: none;
+}
+/* Helper classes end */
+/* Navbar start  */
+.nav {
+    display: inline-block;
+}
+
+.nav-ul .nav img {
+    /* width: 30px; */
+    padding: 0 2rem;
+    /* color: #6e6d6b; */
+    /* font-size: 80px !important; */
+}
+
+.nav img:hover,.nav a:hover {
+    color: #000;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #6e6d6b;
+}
+
+.nav li {
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Navbar end */
+/* Orange start */
+.main-orange {
+    background-image: url(../images/big-orange-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+
+.main-orange .container .custom {
+    padding-top: 7.5rem;
+}
+
+.main-orange .container h2 {
+    text-transform: uppercase;
+    color: #fb9c06;
+    padding: 10px;
+    background-color: #4f4f4f;
+    width: 33%;
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 1.9rem;
+}
+/* Orange end */
+/* Read start */
+.main-read {
+    padding-top: 2rem;
+}
+
+.main-read a {
+    text-decoration: none;
+    color: #ffb540;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 20px;
+}
+/* Read end */
+/* Team start */
+.main-team .container .taf a {
+    font-size: 2.5rem;
+    color: #ffb540;
+    font-weight: 400;
+}
+
+.main-team .container .t-col p {
+    padding-top: 1rem;
+    padding-left: 3rem;
+    width: 85%
+}
+/* Team end */
+/* Massege start */
+.main-massege {
+    height: 67vh;
+}
+
+.main-massege .container .sent {
+    margin-bottom: 3rem !important;
+}
+
+.main-massege .container .sent a {
+    font-size: 2.5rem;
+    color: #ffb540;
+    font-weight: 400;
+   
+}
+
+form input {
+    display: inline-block !important;
+    width: 90% !important;
+    background-color: #f8f7f6 !important;
+    border-right: none !important;
+    border-bottom: none !important;
+    border-radius: 0 !important;
+    margin-bottom: 30px;
+    border-top: solid 2px #d2d0cf !important;
+    border-left: solid 4px #d2d0cf !important;
+}
+
+form textarea {
+    display: inline-block !important;
+    width: 90% !important;
+    background-color: #f8f7f6 !important;
+    border-right: none !important;
+    border-bottom: none !important;
+    border-radius: 0 !important;
+    /* margin-top: 30px; */
+    border-top: solid 2px #d2d0cf !important;
+    border-left: solid 4px #d2d0cf !important;
+}
+
+form button {
+    font-size: 25px;
+    padding: 0 25px;
+    color: #fff;
+    background-color: #fb9c06;
+    border: 0;
+    font-weight: 100;
+    margin-right: 4rem;
+}
+
+/* form .text {
+    padding-bottom: 30px !important;
+} */
+/* Massege end */
+/* Copyright start */
+.main-copy {
+    background-color: #fb9c06;
+}
+
+.main-copy .para p {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 100;
+    padding: 1rem 0;
+}
+/* Copyright end */
